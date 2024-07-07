@@ -1,13 +1,21 @@
-## txbox
+> 低调自用，勿散播
 
-低调自用，勿散播
+## 自用整合
+
+|  名称    |  地址                    |
+|----------| ------------------------|
+|大佬仓库1 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/txbox/dalao.json|
+|大佬仓库2 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/txbox/dalao2.json|
+|大佬仓库3 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/txbox/dalao3.json|
+|福利仓    |https://ghproxy.net/https://raw.githubusercontent.com/wietrade/tvbox-json-/master/9918.json   |
+
+## 网络搜集
 
 |  名称    |  地址                    |
 |----------| ------------------------|
 |公子仓    |http://gzc.hk3.345123.xyz/cangku.json     |
 |小白龙    |http://39.101.135.137:8686/大佬群聚     |
 |集合多仓  |http://530.my3v.work/f.json     |
-|福利仓    |https://ghproxy.net/https://raw.githubusercontent.com/wietrade/tvbox-json-/master/9918.json   |
 |爱TV      |http://tt.iitvba.com     |
 |小葱      |https://raw.iqiq.io/jigedos/CTTBOX/main/dc1.json     |
 |牛肉      |https://raw.iqiq.io/jigedos/CTTBOX/main/dcpro.json     |
