@@ -1,0 +1,274 @@
+! Title: 防误下载流氓软件
+! Version: 20240328
+
+!! 视频网站
+!debugger调试  真不卡影院反广告检测
+||api.nixingle.com/jiekou/zbk-bkby/fuck-debugger.js
+||api.nixingle.com/zhenbuka/statics/js/fuck-debugger.js
+!不可屏蔽 网站检查此文件是否屏蔽来判断广告屏蔽
+@@||api.nixingle.com/zhenbuka/statics/js/guanggao.js
+zhenbuka.com##[href=""]
+||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/customer-upload/*^$image,domain=zhenbuka.com
+zhenbuka.com##.marquee_outer
+||dlads.cn^
+||www.zhenbuka.com/gg/*$script
+zhenbuka.com##div.clearfix.stui-pannel-bg.stui-pannel:nth-of-type(1) > .clearfix.stui-pannel-box > .stui-pannel_hd
+!奈菲影视反广告检测
+www.nfmovies.com##+js(acis, $myui, probe)
+www.nfmovies.com##+js(set,initAd,noopFunc)
+www.nfmovies.com##+js(set,adTime,0)
+www.nfmovies.com##body > div.hidden-xs
+||www.nfmovies.com/pic/tu/$image
+||www.nfmovies.com/static/$image
+||www.naifei.shop/static/banner/$image
+netfly.fun##[class="popup popup-tips none popupShow"],[class="tips-list fodong_tips"]
+vid.onlymu.site##[class$="tips show"]
+! 迅雷
+||api-shoulei-ssl.xunlei.com^$other
+! B站
+bilibili.com##div.feed-card:has(svg[class$="-ad"]),div.bili-video-card:has(svg[class$="-ad"])
+pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
+||api.bilibili.com/x/click-interface/click/$xhr
+||hdslb.com/bfs/seed/jinkela/short/cols/iframe.html$subdocument
+||bilibili.com/page-proxy/game-nav.html$subdocument
+! 抖音
+douyin.com##body:style(overflow:auto!important)
+! 禁用service worker以免产生天量缓存
+||live.douyin.com/service-worker.js$script
+! 播放器内操作屏幕提示~好烦人
+www.douyin.com,live.douyin.com##.I6ivXmaS
+! 油管
+m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
+m.youku.com,v.youku.com##+js(set, Object.prototype.ad, undefined)
+youtube.com,youtube-nocookie.com##+js(set, Object.prototype.adPlacements, undefined)
+www.youtube.com###masthead-ad
+www.youtube.com##.ytp-ad-overlay-container
+! 腾讯视频
+v.qq.com,sports.qq.com##+js(json-prune,adList.item)
+sports.qq.com##.he_ad.layout
+sports.qq.com##.mt25.site-scr.layout > .mt35.layout
+! 其他视频站
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+v.pptv.com###video-download-game
+www.zhibo8.cc##.ad_box_250
+ddrk.me##+js(set, Object.prototype.ads, null)
+||ddrk.me/mtp/$image
+tingfm.com##+js(set, setTimeout, noopFunc)
+||google.com/adsid/integrator.js$script,redirect=noopjs
+dandanzan.com,dandanzan10.top,nunuyy5.org##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
+
+!! 排除一个
+@@||l.qq.com/livemsg?ty=web&ad_type=
+
+!! 在百度搜索结果中屏蔽卡饭教程
+baidu.com###content_left>div:has(a:contains(https://www.kafan.cn/edu/))
+baidu.com###content_left>div:has(a:contains(https://www.kafan.cn/category/))
+
+!! 反屏蔽
+*$script,domain=www.rjno1.com
+www.rjno1.com##body > div > div > div > div
+||www.rjno1.com^$inline-script
+
+!! 网站去登录提示
+! 知乎去登录提示
+www.zhihu.com##.css-1ynzxqw
+||static.zhihu.com/heifetz/chunks/581.$script
+zhuanlan.zhihu.com##.css-1izy64v
+||static.zhihu.com/heifetz/chunks/1020.$script
+! B站去登录提示
+www.bilibili.com##.bili-mini-mask
+||hdslb.com/bfs/static/jinkela/long/js/sentry/$script,domain=~space.bilibili.com
+||hdslb.com/bfs/seed/jinkela/short/mini-login/$script
+! YK去登录提示
+||g.alicdn.com/static-es6/login/pc/login/js/main_$script,important,domain=youku.com
+! CSDN去登录提示
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+! 百毒去登录提示
+!wappass.baidu.com
+tieba.baidu.com##.tieba-custom-pass-login
+||passport.baidu.com/passApi/$script,domain=~fanyi.baidu.com
+||bcebos.com/passApi/js/login$script
+! 豆瓣去登录提示
+||doubanio.com/f/accounts/*/passport/$script
+||doubanio.com/dae/accounts/resources/$script
+! 抖音去登录提示
+||bytegoofy.com/obj/goofy/ies/douyin_web/async/LoginCheck.$script,domain=douyin.com
+||lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/async/LoginCheck.$script,domain=douyin.com
+||bytegoofy.com/obj/slardar/fe/sdk-web/plugins/blank-screen.$script,domain=douyin.com
+||ibytedapm.com/slardar/fe/sdk-web/plugins/blank-screen.$script,domain=douyin.com
+
+!! 工作相关网站
+! 2024-01-21 https://oa.dingtalk.com
+oa.dingtalk.com##.slick-current.slick-active.slick-slide > div > div
+! 2024-01-22 https://www.123pan.com
+www.123pan.com##.banner-container-pc
+! 2024-01-29 https://adscz.cn
+adscz.cn###module1159 > .J_project_sort_handle.module_wrap
+! 2024-02-01 https://cloud.189.cn
+cloud.189.cn##.outlink-advertising.advertising
+! 2024-02-06 https://sm.ms
+sm.ms##.footer
+! 2024-02-16 https://www.alipan.com
+www.alipan.com##.share-list-banner--o0-5U
+
+!! 扩展及脚本站、样式站主页
+tampermonkey.net##.scripts.p100100.noborder > tbody > tr > td:nth-of-type(2)
+userstyles.org##.adsbygoogle
+greasyfork.org###home-ad
+greasyfork.org###script-show-info-ad
+
+!! 小说/门户/新闻网站
+! 起点
+www.qidian.com###banner3
+www.qidian.com###banner4
+www.toutiao.com##.message-container
+! 2024-01-23 https://drive.uc.cn
+drive.uc.cn##.PCLandingBanner--ad-block--78JV4X2
+! 2024-02-01 https://*.zhihu.com
+zhihu.com###tipWrap
+zhihu.com###tipWraplr
+! 2024-02-03 https://www.bilibili.com
+www.bilibili.com##div#tipWrap:nth-of-type(5)
+www.bilibili.com##div#tipWrap:nth-of-type(6)
+! 2024-02-22
+||pagead2.googlesyndication.com^
+||api.tongjiniao.com^$script,strict3p
+_tg.js|$script
+||bdimg.share.baidu.com/static/$script,strict3p
+||baidu.com/js/opensug.js$script,strict3p
+
+!! 下载站/论坛
+! 2024-01-21 http://www.downza.cn
+www.downza.cn##.safe-down
+www.downza.cn##.bd-content > .m-gg1
+www.downza.cn##.m-gg2
+www.downza.cn##.fr-fix-d4ebeb1d.qrcode_show.u-btn-safe.u-btn
+! 2024-01-23 https://www.xitongzhijia.net
+www.xitongzhijia.net##.Acnowk.soft-safedown
+www.xitongzhijia.net##.tab-cont-item-none.J_tab_cont_item.tab-cont-item > .fr-fix-d8bdfcf2.title
+www.xitongzhijia.net##div.fl:nth-of-type(2)
+www.xitongzhijia.net##.tab-cont-item-none.J_tab_cont_item.tab-cont-item > .title
+! 2024-01-23 https://www.pcsoft.com.cn
+www.pcsoft.com.cn##.xzdz-guanjia.qrcode_show.clearfix
+www.pcsoft.com.cn##div.fr-fix-a1caaeab.xzdz_title2:nth-of-type(1)
+www.pcsoft.com.cn##.xzdz-guanjia-tips
+www.pcsoft.com.cn##.xzdz_rg
+! 2024-01-23 https://www.kxdw.com
+www.kxdw.com##.guanggao.bot_ad.lrad.fr
+www.kxdw.com##.gs_dwload
+! 2024-01-23 https://www.52pjb.net
+www.52pjb.net##.downfile_hits1
+! 2024-01-24 https://www.qdqiche.com
+www.qdqiche.com##.fr-fix-bed23048.downnowgaosu.m-bdtn
+www.qdqiche.com###gaosuxiazai
+www.qdqiche.com##h3.fr-fix-bed23048.f-gsh3:nth-of-type(1)
+www.qdqiche.com##.f-fr.u-right-ban
+! 2024-01-24 https://www.dadiyouhui01.cn
+www.dadiyouhui01.cn###myheadFrame
+! 2024-01-25 https://www.upandashi.com
+www.upandashi.com##dl.clearfix:nth-of-type(1)
+! 2024-02-01 https://www.ghxi.com
+www.ghxi.com##li.item-sticky.item:nth-of-type(7)
+www.ghxi.com##li.item-sticky.item:nth-of-type(6)
+www.ghxi.com##li.item-sticky.item:nth-of-type(5)
+www.ghxi.com##li.item-sticky.item:nth-of-type(4)
+www.ghxi.com##li.item-sticky.item:nth-of-type(3)
+www.ghxi.com##li.item-sticky.item:nth-of-type(2)
+www.ghxi.com##li.item-sticky.item:nth-of-type(1)
+www.ghxi.com##.ae7d61
+! 2024-02-01 https://www.423down.com
+423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
+423down.com##ul.excerpt>li a[rel="category tag"]:has-text(产品推广):upward(li)
+423down.com##+js(aeld, DOMContentLoaded, adsBlocked)
+423down.com##ul.post-list>li span.sticky-post:has-text(置顶):upward(li)
+www.423down.com##.sidebar > .adsbygoogle
+! 2024-02-01 https://www.fenxm.com
+www.fenxm.com##article.clearfix.sb.mb.br.article-list:nth-of-type(1)
+www.fenxm.com##article.clearfix.sb.mb.br.article-list:nth-of-type(2)
+! 2024-02-01 https://www.jb51.net
+www.jb51.net##p.fr-fix-a1aa702d.gs:nth-of-type(1)
+! 2024-02-02 https://mpyit.com
+mpyit.com##.post-1256
+mpyit.com##.post-3123
+mpyit.com##.post-1234
+mpyit.com##.tag-office.category-zhengban.category-office-software.hentry.sticky.format-standard.status-publish.type-post.post.post-41303
+mpyit.com##.category-zhengban.category-os.hentry.sticky.format-standard.status-publish.type-post.post.post-67039
+mpyit.com##.tag-windows10.category-zhengban.hentry.sticky.format-standard.status-publish.type-post.post.post-41471
+mpyit.com##.tag-11486.tag-ocr.tag-app.tag-8869.tag-7322.category-zhengban.hentry.sticky.format-standard.status-publish.type-post.post.post-46727
+mpyit.com##.tag-idm.category-zhengban.hentry.sticky.format-standard.status-publish.type-post.post.post-40879
+! 2024-02-04 https://ran-ran.top
+ran-ran.top##.down-header
+! 2024-02-06 https://myqqjd.com
+myqqjd.com##.yphr.post_format-post-format-link.category-mixed.category-software.category-android.category-activity.hentry.sticky.format-link.status-publish.type-post.post-60760.scl.doclose.bk.ms.post
+myqqjd.com##.yphr.tag-artificialintelligence.tag-chatgpt.category-mixed.category-software.category-android.category-activity.hentry.sticky.format-standard.status-publish.type-post.post.post-50654.scl.doclose.bk.ms
+myqqjd.com##.yphr.post_format-post-format-link.category-mixed.category-software.category-android.category-activity.hentry.sticky.format-link.status-publish.type-post.post-60206.scl.doclose.bk.ms.post
+! 2024-02-15 https://www.mefcl.com
+www.mefcl.com##.excerpt-sticky.excerpt-1.excerpt
+www.mefcl.com##.excerpt-sticky.excerpt-2.excerpt
+www.mefcl.com##.excerpt-sticky.excerpt-3.excerpt
+www.mefcl.com##.excerpt-sticky.excerpt-4.excerpt
+www.mefcl.com##.excerpt-sticky.excerpt-5.excerpt
+! 2024-02-20 https://www.uy5.net
+www.uy5.net##li.item-sticky.item:nth-of-type(1)
+www.uy5.net##li.item-sticky.item:nth-of-type(2)
+www.uy5.net##li.item-sticky.item:nth-of-type(3)
+! 2024-02-20 https://www.wandoujia.com
+www.wandoujia.com##.midbanner
+! 2024-02-21 http://www.kkx.net
+www.kkx.net##.downbox > div
+www.kkx.net##.infobox_centre > .imgss
+! 2024-02-21 https://xiazai.zol.com.cn
+xiazai.zol.com.cn##.sidebar_list.down-box-gaosu-2022
+xiazai.zol.com.cn##.down-right
+! 2024-02-22 https://www.xiujiadian.com
+www.xiujiadian.com##.customer-box
+www.xiujiadian.com###zmnChatSusp
+! 2024-02-22 https://g.pconline.com.cn
+g.pconline.com.cn##.page-float-box
+! 2024-02-22 https://www.rjno1.com
+www.rjno1.com##.space.l.iov8de
+! 2024-02-24 https://www.fontke.com
+www.fontke.com##.fbody
+! 2024-02-24 http://www.wodown.com
+www.wodown.com##.clearfix.m-down-btn > .Acnowk
+www.wodown.com##.clearfix.f-fr.g-bd-ban2018
+www.wodown.com##div.one.u-link-list:nth-of-type(1)
+! 2024-02-28 https://www.lan-sha.com
+www.lan-sha.com##li.post-item:nth-of-type(2)
+! 2024-02-28 https://www.pc6.com
+www.pc6.com###param-box > .ad
+www.pc6.com###acd
+www.pc6.com##.d-l-a
+www.pc6.com###samesoft
+www.pc6.com##.ad.side-box
+! 2024-02-28 https://www.liqucn.com
+www.liqucn.com##.fr-fix-9d9a8cbd.btn_d_pc.css_d_pc
+! 2024-02-29 https://cn.dll-files.com
+cn.dll-files.com##.AV65af997ee21d034ab904eba7
+! 2024-03-01 http://www.win7win8.com
+www.win7win8.com##div.r.dl_r:nth-of-type(2)
+www.win7win8.com##.adsCenter
+www.win7win8.com##.DCLxzdz1nrR
+www.win7win8.com##dl:nth-of-type(1)
+! 2024-03-05 https://www.aliyundrive.com
+www.aliyundrive.com##.share-list-banner--o0-5U
+www.alipan.com##.share-list-banner--o0-5U
+www.aliyundrive.com###adrive-open-splash-screen-iframe-container
+! 2024-03-07 https://alist.nn.ci
+alist.nn.ci##.ads-container.theme-hope-content
+alist.nn.ci##.ads-container
+! 2024-03-08 https://www.chunjingban.net
+www.chunjingban.net##.address-right
+! 2024-03-18 http://www.kkx.net
+www.kkx.net###downloadbox
+www.kkx.net##li:nth-of-type(8)
+www.kkx.net##.infobox_right
+www.kkx.net##.other2
+! 2024-03-22 http://www.liulan.net
+www.liulan.net##.xzqbox
+www.liulan.net###downloadbox
+! 2024-03-22 https://kjgx668.blogspot.com
+kjgx668.blogspot.com##.ad-wrapper.row
+! 2024-03-27 https://cf.090227.xyz
+cf.090227.xyz##div.centered > .centered
