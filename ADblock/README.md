@@ -83,30 +83,15 @@ https://ghproxy.net/https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/
 
 ### GKD
 订阅源合集主页：https://github.com/Adpro-Team/GKD_THS_List?tab=readme-ov-file  
-订阅一：684个应用的1562个规则组  
-```
-https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5
-```
-订阅二：48个应用的170个规则组
-```
-https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5
-```
-订阅三：621个应用的1402个规则组
-```
-https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
-```
-订阅四：ganlin 611 个 APP, 共有 1376 规则组
-```
-https://raw.gitmirror.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5
-```
-订阅五：Jamison Leo
-```
-https://raw.gitmirror.com/JamisonLeo/GKD-subscription/main/subscription.json
-```
-订阅六：YaChengMu
-```
-https://raw.gitmirror.com/YaChengMu/subscription/main/dist/gkd.json5
-```
+
+| 名称 | 来源 | 链接 | 维护状态 |
+| :------ | :----- | :----- | :----- |
+| ~~Adpro~~ | ~~[仓库](https://github.com/Adpro-Team/GKD_subscription/tree/main)~~ | ~~https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5~~ | 停更 |
+| AIsouler | [仓库](https://github.com/AIsouler/GKD_subscription/tree/main) | https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5 | 在更 |
+| 奥怪 | [仓库](https://github.com/aoguai/subscription/tree/custom) | https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5 | 在更 |
+| 甘霖 | [仓库](https://github.com/ganlinte/GKD-subscription/tree/main) | https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files | 在更 |
+| ~~田所浩二~~ | ~~[仓库](https://github.com/gkd-sub-repo/114514_subscription/tree/main)~~ | ~~https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5~~ | 停更 |
+| 梦念逍遥 | [仓库](https://github.com/MengNianxiaoyao/gkd-subscription/tree/main) | https://registry.npmmirror.com/gkd-subscription/latest/files | 在更 |
 
 ## 路由端屏蔽规则
 **Adbyby（xwhyc-rules）**
