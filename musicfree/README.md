@@ -1,6 +1,8 @@
 ## 开源音乐软件musicfree
 
-[软件地址](https://github.com/maotoumao/MusicFree/releases)
+[安卓版软件地址](https://github.com/maotoumao/MusicFree/releases)
+
+[PC版软件地址](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
 [音源仓库](https://github.com/maotoumao/MusicFreePlugins)
 
