@@ -89,7 +89,8 @@ https://ghproxy.net/https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/
 | ~~Adpro~~ | ~~[仓库](https://github.com/Adpro-Team/GKD_subscription/tree/main)~~ | ~~https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5~~ | 停更 |
 | AIsouler | [仓库](https://github.com/AIsouler/GKD_subscription/tree/main) | https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5 | 在更 |
 | 奥怪 | [仓库](https://github.com/aoguai/subscription/tree/custom) | https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5 | 在更 |
-| 甘霖 | [仓库](https://github.com/ganlinte/GKD-subscription/tree/main) | https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files | 在更 |
+| 甘霖 | [仓库](https://github.com/ganlinte/GKD-subscription/tree/main) | https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5
+ | 在更 |
 | ~~田所浩二~~ | ~~[仓库](https://github.com/gkd-sub-repo/114514_subscription/tree/main)~~ | ~~https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5~~ | 停更 |
 | 梦念逍遥 | [仓库](https://github.com/MengNianxiaoyao/gkd-subscription/tree/main) | https://registry.npmmirror.com/gkd-subscription/latest/files | 在更 |
 
