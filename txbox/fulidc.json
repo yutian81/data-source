@@ -4,16 +4,12 @@
 {
     "urls": [
         {
-          "url":"https://ghproxy.net/https://raw.githubusercontent.com/ZTHA000/tvbox/main/flck.json",
+          "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/catcr.json",
           "name":"🔞福利1号"
         },
         {
           "url":"https://ghproxy.net/https://raw.githubusercontent.com/wietrade/tvbox-json-/master/9918.json",
           "name":"🔞福利2号"
-        },
-        {
-          "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/catcr.json",
-          "name":"🔞福利3号"
         }
      ]
 }
