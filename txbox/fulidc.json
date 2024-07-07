@@ -1,5 +1,5 @@
 //网络搜集的福利接口，切勿散播！！！禁止转载！！！
-//更新时间：2024/03/06 18:00
+//更新时间：2024/07/07 18:00
 
 {
     "urls": [
@@ -10,6 +10,10 @@
         {
           "url":"https://ghproxy.net/https://raw.githubusercontent.com/wietrade/tvbox-json-/master/9918.json",
           "name":"🔞福利2号"
+        },
+        {
+          "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/catcr.json",
+          "name":"🔞福利3号"
         }
      ]
 }
