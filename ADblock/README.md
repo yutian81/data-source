@@ -8,7 +8,7 @@
 ```
 https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad-edentw.txt
 https://fastly.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list@master/nocoin.txt
-https://ghproxy.net/https://raw.githubusercontent.com/yutian81/ADblock/main/pua.txt
+https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/ADblock/pua.txt
 https://ghproxy.net/https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt
 https://ghproxy.net/https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
 https://ghproxy.net/https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
