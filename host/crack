@@ -1,0 +1,203 @@
+# 屏蔽软件联网验证  20221018
+
+# 屏蔽PlayerFab联网验证
+127.0.0.1   api2.dvdfab.cn
+127.0.0.1   api3.dvdfab.cn
+127.0.0.1   report.dvdfab.cn
+127.0.0.1   analytics-api.dvdfab.cn
+127.0.0.1   app-api.dvdfab.cn
+127.0.0.1   app-api-c1.dvdfab.cn
+127.0.0.1   app-api-d1.dvdfab.cn
+127.0.0.1   app-api-j1.dvdfab.cn
+
+# 屏蔽万兴软件联网验证
+127.0.0.1 cbs.wondershare.com
+127.0.0.1 www.wondershare.net
+127.0.0.1 www.wondershare.com
+127.0.0.1 support.wondershare.net
+127.0.0.1 www.cbs.wondershare.com
+127.0.0.1 platform.wondershare.com
+127.0.0.1 account.wondershare.com
+
+# 屏蔽 EaseUS Data Recovery 联网验证
+127.0.0.1	easeus.com
+127.0.0.1	www.easeus.com
+127.0.0.1	activation.easeus.com
+127.0.0.1	easeus.com.cn
+127.0.0.1	www.easeus.com.cn
+127.0.0.1	track.easeus.com
+127.0.0.1	track.easeus.com.cn
+127.0.0.1	api.easeus.com
+127.0.0.1	update.easeus.com
+127.0.0.1	map2.hwcdn.net
+127.0.0.1	easeusinfo.us-east-1.log.aliyuncs.com
+127.0.0.1	aaa100cd68bbe03f3.awsglobalaccelerator.com
+127.0.0.1	uompro.easeus.com
+127.0.0.1	order.easeus.com
+127.0.0.1	curl.haxx.se
+127.0.0.1	buy.easeus.com
+127.0.0.1	v2api-uoss.easeus.com
+
+# 屏蔽 Luminar AI 联网验证
+127.0.0.1 auth.macphun.com
+127.0.0.1 luminar3win.update.skylum.com
+127.0.0.1 luminar4win.update.skylum.com
+127.0.0.1 luminar3.s3-accelerate.amazonaws.com
+127.0.0.1 luminar4win.update.skylum.com
+127.0.0.1 luminar4.s3-accelerate.amazonaws.com
+127.0.0.1 stats-api.skylum.com
+127.0.0.1 geotargetly-1a441.appspot.com
+127.0.0.1 fx.macphun.com
+127.0.0.1 canonicalizer.ucsuri.tcs
+127.0.0.1 api.photolemur.com
+127.0.0.1 media.macphun.com
+127.0.0.1 luminaraiwin.skylum.com
+127.0.0.1 luminarneowin.skylum.com
+ 
+# 屏蔽corel联网验证
+127.0.0.1  apps.corel.com
+127.0.0.1  mc.corel.com
+127.0.0.1  origin-mc.corel.com
+127.0.0.1  iws.corel.com
+127.0.0.1  ipm.corel.com
+127.0.0.1  deploy.akamaitechnologies.com
+127.0.0.1  compute-1.amazonaws.com
+127.0.0.1  content.corel.com
+127.0.0.1  65.200.22.154
+127.0.0.1  65.200.22.99
+127.0.0.1  ipp.corel.com
+127.0.0.1  secure.ipp.corel.com
+127.0.0.1  www.corelstore.com
+127.0.0.1  edgesuite.net
+127.0.0.1  dev1.ipm.corel.public.corel.net
+127.0.0.1  pp.corel.com
+
+# 屏蔽Mindjet 联网验证
+127.0.0.1 www.mindjet.com
+127.0.0.1 mindjet.com
+
+# 屏蔽Adobe软件联网验证
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 lmlicenses.wip4.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+127.0.0.1 na1r.services.adobe.com
+127.0.0.1 hlrcv.stage.adobe.com
+127.0.0.1 3dns.adobe.com
+127.0.0.1 3dns-1.adobe.com
+127.0.0.1 3dns-4.adobe.com
+127.0.0.1 3dns-5.adobe.com
+127.0.0.1 activate.wip1.adobe.com
+127.0.0.1 activate.wip2.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip4.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-1.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-4.adobe.com
+127.0.0.1 adobeereg.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.wip.adobe.com
+127.0.0.1 ereg.wip1.adobe.com
+127.0.0.1 ereg.wip2.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip4.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 wip.adobe.com
+127.0.0.1 wip1.adobe.com
+127.0.0.1 wip2.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip4.adobe.com
+127.0.0.1 crl.versign.net
+127.0.0.1 ood.opsource.net
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+# 屏蔽广联达CAD快速看图联网验证
+127.0.0.1 backup.lumion3d.net
+127.0.0.1 license.lumion3d.net
+127.0.0.1 backup.lumion3d.com
+127.0.0.1 activate.lumion3d.com
+127.0.0.1 license.lumiontech.net
+127.0.0.1 upload.lumion3d.net
+127.0.0.1 upload.lumion3d.com
+127.0.0.1  cad.glodon.com 
+
+# 屏蔽CAD迷你看图联网验证
+127.0.0.1 app.com
+
+# 屏蔽bandicam联网验证
+127.0.0.1 bandicam.com
+127.0.0.1 ssl.bandisoft.com
+
+# 屏蔽aimersoft视频转换软件联网验证
+127.0.0.1 platform.aimersoft.com
+
+# 屏蔽avast软件联网验证
+127.0.0.1  www.ns2.avast.com
+127.0.0.1  www.pns.avast.com
+127.0.0.1  expire.eset.com
+127.0.0.1  edf.eset.com
+
+# 屏蔽ESET联网验证
+127.0.0.1  expire.eset.com
+127.0.0.1  edf.eset.com
+
+#去除Flash区域限制
+127.0.0.1 geo2.adobe.com
+127.0.0.1 flash.cn
+127.0.0.1 www.flash.cn
+
+# 屏蔽WPS专业版联网验证
+127.0.0.1 snauth.wps.cn
+127.0.0.1 cloudservice7.kingsoft-office-service.com
+
+# 屏蔽威力导演联网验证
+127.0.0.1 cap.cyberlink.com
+127.0.0.1 activation.cyberlink.com
+
+# 屏蔽IDM联网验证
+127.0.0.1 mirror.internetdownloadmanager.com
+127.0.0.1 mirror2.internetdownloadmanager.com
+127.0.0.1 mirror3.internetdownloadmanager.com
+127.0.0.1 www.internetdownloadmanager.com
+127.0.0.1 internetdownloadmanager.com
+127.0.0.1 registeridm.com
+127.0.0.1 www.registeridm.com
+127.0.0.1 secure.registeridm.com
+127.0.0.1 secure.internetdownloadmanager.com
+127.0.0.1 tonec.com
+127.0.0.1 www.tonec.com
+
+# 屏蔽 Topaz Gigapixel AI 联网验证
+127.0.0.1 auth.topazlabs.com
+
+# 屏蔽 UEedit 联网验证
+127.0.0.1 swupdate.ultraedit.com
+127.0.0.1 licensing.ultraedit.com
+
+# 屏蔽傲梅软件联网验证
+127.0.0.1 www.aomeitech.com
+
+# 屏蔽ACDSee联网验证
+127.0.0.1 acdid.acdsystems.com
+
+# 屏蔽Iobit联网验证
+127.0.0.1 idb.iobit.com
+127.0.0.1 asc55.iobit.com
+127.0.0.1 asc.iobit.com
+127.0.0.1 pf.iobit.com
+127.0.0.1 iunins.iobit.com
+
+# 屏蔽梨子软件联网验证
+127.0.0.1 analytics.ff.avast.com
+127.0.0.1 ipm-provider.ff.avast.com
+127.0.0.1 license.piriform.com
+127.0.0.1 www.ccleaner.com
+127.0.0.1 shepherd.ff.avast.concc.avast.com
+127.0.0.1 ncc.avast.com.edgesuite.net
+127.0.0.1 ip-info.ff.avast.com

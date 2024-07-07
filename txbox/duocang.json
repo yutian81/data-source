@@ -1,0 +1,10 @@
+//此为多仓接口语法示例，不可用！！！
+
+{
+  "storeHouse": [
+    { "sourceName": "大佬1号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao.json" }, 
+    { "sourceName": "大佬2号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao2.json" }, 
+    { "sourceName": "大佬3号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao3.json" },
+    { "sourceName": "奇奇整合", "sourceUrl": "https://2904.kstore.space/236.txt" }
+  ]
+}
