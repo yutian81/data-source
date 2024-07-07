@@ -81,7 +81,7 @@ https://ghproxy.net/https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/
 网址是：https://snoopy1866.github.io/LiTiaotiao-Custom-Rules/  
 备用网址：https://ossso.github.io/LiTiaotiao-Custom-Rules/  
 
-### GKD
+### GKD [项目地址](https://github.com/gkd-kit/gkd)
 订阅源合集主页：https://github.com/Adpro-Team/GKD_THS_List?tab=readme-ov-file  
 
 | 名称 | 来源 | 链接 | 维护状态 |
