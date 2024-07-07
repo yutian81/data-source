@@ -4,6 +4,8 @@
 
 [音源仓库](https://github.com/maotoumao/MusicFreePlugins)
 
+[官方聚合插件](https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json)
+
 ### 音源订阅地址
 
 小枸音乐（酷狗）
