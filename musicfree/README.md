@@ -4,7 +4,7 @@
 
 [PC版软件地址](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
-[音源仓库](https://github.com/maotoumao/MusicFreePlugins)
+[音源仓库](https://github.com/maotoumao/MusicFreePlugins)（已无国内音乐源）
 
 [官方聚合插件](https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json)
 
