@@ -17,19 +17,13 @@ https://ghproxy.net/https://raw.githubusercontent.com/cjx82630/cjxlist/master/cj
 https://ghproxy.net/https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
 ```
 
-**EasyList规则**
-- EasyList (反广告主规则列表。主要面向英文网站，包含大量通用规则)
-```
-https://easylist-downloads.adblockplus.org/easylist.txt
-```
-- Easylist China (反广告主规则列表的补充。主要面向中文网站)
-```
-https://easylist-downloads.adblockplus.org/easylistchina.txt
-```
-- EasyPrivacy (防隐私跟踪挖矿规则列表)
-```
-https://easylist-downloads.adblockplus.org/easyprivacy.txt
-```
+**EasyList官方规则**
+
+| 用途 | 链接 |
+| :------ | :----- | 
+| EasyList：主要面向英文网站 | https://easylist-downloads.adblockplus.org/easylist.txt | 
+| Easylist China：主要面向中文网站 | https://easylist-downloads.adblockplus.org/easylistchina.txt | 
+| EasyPrivacy：防隐私跟踪挖矿 | https://easylist-downloads.adblockplus.org/easyprivacy.txt | 
 
 **cjxlist规则** [项目地址](https://github.com/cjx82630/cjxlist)
 
@@ -88,7 +82,7 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 备用网址：https://ossso.github.io/LiTiaotiao-Custom-Rules/  
 
 ### GKD
-订阅源合计主页：https://github.com/Adpro-Team/GKD_THS_List?tab=readme-ov-file  
+订阅源合集主页：https://github.com/Adpro-Team/GKD_THS_List?tab=readme-ov-file  
 订阅一：684个应用的1562个规则组  
 ```
 https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5
