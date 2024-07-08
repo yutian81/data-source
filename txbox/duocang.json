@@ -1,10 +1,14 @@
-//此为多仓接口语法示例，不可用！！！
+//此为多仓接口，来源于<https://github.com/aliluya1977/TVBox_warehouse>  
 
 {
   "storeHouse": [
-    { "sourceName": "大佬1号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao.json" }, 
-    { "sourceName": "大佬2号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao2.json" }, 
-    { "sourceName": "大佬3号", "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yutian81/txbox/main/dalao3.json" },
-    { "sourceName": "奇奇整合", "sourceUrl": "https://2904.kstore.space/236.txt" }
+    { "sourceName": "影视", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json" }, 
+    { "sourceName": "动漫", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/动漫/api.json" }, 
+    { "sourceName": "文艺", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/文艺/api.json" },
+    { "sourceName": "体育", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/体育/api.json" },
+    { "sourceName": "教育", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/api.json" },
+    { "sourceName": "直播", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/直播/api.json" },
+    { "sourceName": "磁力", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/磁力/api.json" },  
+    { "sourceName": "云盘", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/云盘/api.json" }  
   ]
 }
