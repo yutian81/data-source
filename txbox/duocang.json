@@ -1,14 +1,38 @@
 //此为多仓接口，来源于https://github.com/aliluya1977/TVBox_warehouse
 
 {
-  "storeHouse": [
-    { "sourceName": "影视", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json" }, 
-    { "sourceName": "动漫", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/动漫/api.json" }, 
-    { "sourceName": "文艺", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/文艺/api.json" },
-    { "sourceName": "体育", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/体育/api.json" },
-    { "sourceName": "教育", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/api.json" },
-    { "sourceName": "直播", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/直播/api.json" },
-    { "sourceName": "磁力", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/磁力/api.json" },  
-    { "sourceName": "云盘", "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/云盘/api.json" }  
-  ]
-}
+    "urls": [
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json",
+          "name":"影视"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/动漫/api.json",
+          "name":"动漫"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/文艺/api.json",
+          "name":"文艺"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/体育/api.json",
+          "name":"体育"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/api.json",
+          "name":"教育"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/直播/api.json",
+          "name":"直播"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/磁力/api.json",
+          "name":"磁力"
+        },
+        {
+          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/云盘/api.json",
+          "name":"云盘"
+        }
+     ]
+   }
