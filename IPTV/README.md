@@ -1,4 +1,5 @@
-## Ftindy精选
+## 精选
+aliluya1977：`https://ghproxy.net/https://raw.githubusercontent.com/aliluya1977/TVBox_warehouse/main/live.txt`  
 推荐直播源：`https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/Collect.m3u`    
 精选IPV6源：`https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u`    
 4K/8K源：`https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u`    
