@@ -16,6 +16,7 @@
 |公子仓    |http://gzc.hk3.345123.xyz/cangku.json     |
 |小白龙    |http://39.101.135.137:8686/大佬群聚     |
 |aliluya1977    |https://ghproxy.net/https://raw.githubusercontent.com/aliluya1977/TVBox/master/XC.json     |
+|bizhangjie  |https://mirror.ghproxy.com/https://github.com/bizhangjie/CatVodSpider/blob/main/json/index.json     |
 |集合多仓  |http://530.my3v.work/f.json     |
 |爱TV      |http://tt.iitvba.com     |
 |小葱      |https://raw.iqiq.io/jigedos/CTTBOX/main/dc1.json     |
