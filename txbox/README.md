@@ -13,6 +13,7 @@
 
 |  名称    |  地址                    |
 |----------| ------------------------|
+|未知      |http://rihou.cc:55     |
 |公子仓    |http://gzc.hk3.345123.xyz/cangku.json     |
 |小白龙    |http://39.101.135.137:8686/大佬群聚     |
 |aliluya1977    |https://ghproxy.net/https://raw.githubusercontent.com/aliluya1977/TVBox/master/XC.json     |
