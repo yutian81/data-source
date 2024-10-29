@@ -4,7 +4,8 @@
 | 用途 | 链接 |
 | ---- | ---- |
 | 屏蔽软件联网验证 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/host/crack |
-| 加速特定网站访问 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/host/jiasu |
+| 加速特定网站访问 | https://ghproxy.net/https://raw.githubusercontent.com/ineo6/hosts/master/hosts |
+| 加速 Github 访问 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/host/jiasu |
 | 屏蔽国内PUA广告 | https://ghproxy.net/https://raw.githubusercontent.com/yutian81/data-source/main/host/pua |
 
 ### 解决Github访问
