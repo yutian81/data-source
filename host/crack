@@ -71,6 +71,8 @@
 127.0.0.1  edgesuite.net
 127.0.0.1  dev1.ipm.corel.public.corel.net
 127.0.0.1  pp.corel.com
+127.0.0.1  sws.corel.com
+127.0.0.1  redirect.corel.com
 
 # 屏蔽Mindjet 联网验证
 127.0.0.1 www.mindjet.com
