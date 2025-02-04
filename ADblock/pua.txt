@@ -134,7 +134,6 @@ www.bilibili.com##div#tipWrap:nth-of-type(6)
 ! 2024-02-22
 ||pagead2.googlesyndication.com^
 ||api.tongjiniao.com^$script,strict3p
-_tg.js|$script
 ||bdimg.share.baidu.com/static/$script,strict3p
 ||baidu.com/js/opensug.js$script,strict3p
 
