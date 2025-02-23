@@ -1,4 +1,4 @@
-async function getRandomImage(imgElementId = "randomImage", fallbackUrl = "") {
+async function randomBingtu(imgElementId = "randomBingtu", fallbackUrl = "") {
     try {
         const response = await fetch("https://tgfile.yuzong.nyc.mn/bing");
         const data = await response.json();
@@ -27,4 +27,4 @@ async function getRandomImage(imgElementId = "randomImage", fallbackUrl = "") {
 }
 
 // 让外部项目可以调用
-window.getRandomImage = getRandomImage;
+window.randomBingtu = randomBingtu;
