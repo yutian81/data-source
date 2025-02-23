@@ -4,7 +4,7 @@
 <script src="https://github.com/yutian81/data-source/raw/main/jsku/randomBingtu.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        getRandomImage("randomImage", "https://bing.img.run/1920x1080.php");
+        randomBingtu("randomBingtu", "https://bing.img.run/1920x1080.php");
     });
 </script>
 ```
