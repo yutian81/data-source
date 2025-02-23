@@ -1,14 +1,10 @@
 ### js在header
 ```
-<head>
-    <script src="https://你的GitHub用户名.github.io/bing-random-image/randomImage.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            getRandomImage("randomImage");
-        });
-    </script>
-</head>
-<body>
-    <img id="randomImage" src="" alt="随机图片" width="600">
-</body>
+<img id="randomBingtu" src="" alt="随机图片" width="600">
+<script src="https://github.com/yutian81/data-source/raw/main/jsku/randomBingtu.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        getRandomImage("randomImage", "https://bing.img.run/1920x1080.php");
+    });
+</script>
 ```
