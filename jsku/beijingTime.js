@@ -1,10 +1,29 @@
+// 获取北京时间data对象
 function getBeijingDate() {
     const now = new Date();
-    return new Date(now.getTime() + 8 * 60 * 60 * 1000);
+    const utcTime = now.getTime() + now.getTimezoneOffset() * 60000; // 转换为 UTC 时间
+    const beijingOffset = 8 * 60 * 60 * 1000; // 北京时区偏移量（UTC+8）
+    return new Date(utcTime + beijingOffset);
 }
 
-// 中文环境通常返回YYYY/MM/DD HH:mm:ss，
-// 所以需要用replace将斜杠替换为短横线，并移除逗号（如果有的话）
+function getBeijingStr() {
+    const beijingDate = getBeijingDate();
+    return beijingDate.toLocaleString('zh-CN', {
+        timeZone: 'Asia/Shanghai',
+        hour12: false,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    }).replace(/\//g, '-').replace(/,/g, '');
+}
+
+function getBeijingDate() {
+    return new Date(new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }));
+}
+
 function getBeijingStr() {
     return new Date().toLocaleString('zh-CN', {
         timeZone: 'Asia/Shanghai',
