@@ -6,6 +6,10 @@ function getBeijingDate() {
     return new Date(utcTime + beijingOffset);
 }
 
+function getBeijingDate() {
+    return new Date(new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }));
+}
+
 function getBeijingStr() {
     return new Date().toLocaleString('zh-CN', {
         timeZone: 'Asia/Shanghai',
