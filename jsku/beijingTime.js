@@ -27,5 +27,11 @@ function getBeijingStr() {
         minute: '2-digit',
         second: '2-digit',
         hour12: false
-    }).format(new Date()).replace(/\//g, '-');
+    });
+    const parts = formatter.formatToParts(new Date());
+    const { year, month, day, hour, minute, second } = Object.fromEntries(
+        parts.map(({ type, value }) => [type, value])
+    );
+    // 构建一个表示北京时间的字符串
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
