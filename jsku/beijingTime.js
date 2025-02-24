@@ -1,22 +1,19 @@
-function beijingTimeData() {
+function getBeijingDate() {
     const now = new Date();
-    // 计算北京时间（UTC+8）
-    const beijingTime = new Date(now.getTime() + (8 * 60 * 60 * 1000));
-    return beijingTime;
+    return new Date(now.getTime() + 8 * 60 * 60 * 1000);
 }
 
-function beijingTimeStr() {
-    const beijingTime = beijingTimeData();
-    // 格式化时间字符串
-    const year = beijingTime.getUTCFullYear();
-    const month = String(beijingTime.getUTCMonth() + 1).padStart(2, '0');
-    const day = String(beijingTime.getUTCDate()).padStart(2, '0');
-    const hours = String(beijingTime.getUTCHours()).padStart(2, '0');
-    const minutes = String(beijingTime.getUTCMinutes()).padStart(2, '0');
-    const seconds = String(beijingTime.getUTCSeconds()).padStart(2, '0');
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+// 中文环境通常返回YYYY/MM/DD HH:mm:ss，
+// 所以需要用replace将斜杠替换为短横线，并移除逗号（如果有的话）
+function getBeijingStr() {
+    return new Date().toLocaleString('zh-CN', {
+        timeZone: 'Asia/Shanghai',
+        hour12: false,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    }).replace(/\//g, '-').replace(/,/g, '');
 }
-
-// 示例
-console.log("北京时间 (Date对象):", getBeijingTime());
-console.log("北京时间 (字符串):", getBeijingTimeStr());
