@@ -23,6 +23,10 @@ function getBeijingStr() {
         second: '2-digit',
         hour12: false
     });
+    const parts = formatter.formatToParts(new Date());
+    const { year, month, day, hour, minute, second } = Object.fromEntries(
+        parts.map(({ type, value }) => [type, value])
+    );
     // 构建一个表示北京时间的字符串
     return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
