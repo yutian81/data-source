@@ -1,24 +1,28 @@
-// 获取北京时间data对象
 function getBeijingDate() {
-    const now = new Date();
-    const utcTime = now.getTime() + now.getTimezoneOffset() * 60000; // 转换为 UTC 时间
-    const beijingOffset = 8 * 60 * 60 * 1000; // 北京时区偏移量（UTC+8）
-    return new Date(utcTime + beijingOffset);
-}
-
-function getBeijingDate() {
-    return new Date(new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }));
+    const formatter = new Intl.DateTimeFormat('zh-CN', {
+        timeZone: 'Asia/Shanghai', hour12: false,
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit'
+    });
+    const parts = formatter.formatToParts(new Date());
+    const { year, month, day, hour, minute, second } = Object.fromEntries(
+        parts.map(({ type, value }) => [type, value])
+    );
+    // 构建一个表示北京时间的 Date 对象
+    return new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}`);
 }
 
 function getBeijingStr() {
-    return new Date().toLocaleString('zh-CN', {
+    const formatter = new Intl.DateTimeFormat('zh-CN', {
         timeZone: 'Asia/Shanghai',
-        hour12: false,
         year: 'numeric',
         month: '2-digit',
         day: '2-digit',
         hour: '2-digit',
         minute: '2-digit',
-        second: '2-digit'
-    }).replace(/\//g, '-').replace(/,/g, '');
+        second: '2-digit',
+        hour12: false
+    });
+    // 构建一个表示北京时间的字符串
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
