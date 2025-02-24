@@ -30,3 +30,12 @@ function getBeijingStr() {
     // 构建一个表示北京时间的字符串
     return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
+
+// 将 YYYY-mm-dd 字符串日期转换为 data 对象
+const dateStr = "2025-02-28";
+const date = new Date(dateStr);
+
+// 将 YYYY/mm/dd 字符串日期转换为 data 对象
+const dateStr = "2025/02/28";
+const isoDateStr = dateStr.replace(/\//g, '-'); // 将斜杠替换为短横线
+const date = new Date(isoDateStr);
