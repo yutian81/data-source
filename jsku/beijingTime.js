@@ -7,24 +7,6 @@ function getBeijingDate() {
 }
 
 function getBeijingStr() {
-    const beijingDate = getBeijingDate();
-    return beijingDate.toLocaleString('zh-CN', {
-        timeZone: 'Asia/Shanghai',
-        hour12: false,
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit'
-    }).replace(/\//g, '-').replace(/,/g, '');
-}
-
-function getBeijingDate() {
-    return new Date(new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }));
-}
-
-function getBeijingStr() {
     return new Date().toLocaleString('zh-CN', {
         timeZone: 'Asia/Shanghai',
         hour12: false,
