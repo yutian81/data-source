@@ -271,3 +271,56 @@ www.liulan.net###downloadbox
 kjgx668.blogspot.com##.ad-wrapper.row
 ! 2024-03-27 https://cf.090227.xyz
 cf.090227.xyz##div.centered > .centered
+
+! 2024-04-11 https://www.xbwpys.com
+www.xbwpys.com##.home-division.home-widget
+www.xbwpys.com##.home-owl-slider.home-widget
+www.xbwpys.com##.bottum.pc.site-addswarp
+
+! 2024-04-12 https://uutool.cn
+uutool.cn##body > .grid-container
+
+! 2024-04-15 https://www.speedtest.cn
+www.speedtest.cn##.vertisingSpace-right.index-speedtest-content-box.index-aavertising.vertisingSpace > div
+
+! 2024年8月28日 https://blog.csdn.net
+blog.csdn.net##.passport-login-box
+
+! 2024年10月9日 https://api-m.com
+api-m.com##.ad
+
+! 2024年10月15日 https://smms.app
+smms.app##.advert_foot.col-lg-6
+
+! 2024年11月18日 https://www.liqucn.com
+www.liqucn.com##.version_ad
+www.liqucn.com##.btn_d_pc.css_d_pc
+www.liqucn.com##div.sub_wrap:nth-of-type(4)
+
+! 2025年1月12日 https://ip.rss.ink
+ip.rss.ink##.md\:max-w-\[660px\].mx-auto.banner
+
+! 2025年1月12日 https://tcp.mk
+tcp.mk##.md\:max-w-\[660px\].mx-auto.banner
+
+! 2025年1月20日 https://tcp.mk
+tcp.mk##div.item > [href^="https://lisahost.com/link.php"]
+
+! 2025年2月13日 https://xxapi.cn
+xxapi.cn##div.section:nth-of-type(1)
+
+! 2025年3月7日 https://ip.sb
+ip.sb##.rivencloud_ads.col-lg-6
+
+! 2025年3月7日 https://blog.laoda.de
+blog.laoda.de##.joe_detail-wrapper > .joe_advert-large
+blog.laoda.de##.joe_detail > .joe_advert-large
+
+! 2025年6月27日 https://blog.csdn.net
+blog.csdn.net##.passport-login-mark
+
+||csdn.net^$all
+
+! 2025年7月10日 https://picui.cn
+picui.cn##[href="http://www.synidc.cn/aff/CXAYZXNI"]
+picui.cn##div:nth-of-type(5)
