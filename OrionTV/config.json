@@ -427,11 +427,6 @@
         "query": "热门电影"
       },
       {
-        "name": "最新",
-        "type": "movie",
-        "query": "最新电影"
-      },
-      {
         "name": "高分",
         "type": "movie",
         "query": "豆瓣高分"
@@ -447,9 +442,14 @@
         "query": "国产剧"
       },
       {
-        "name": "欧美",
+        "name": "美剧",
         "type": "tv",
-        "query": "欧美剧"
+        "query": "美剧"
+      },
+      {
+        "name": "英剧",
+        "type": "tv",
+        "query": "英剧"
       },
       {
         "name": "日剧",
@@ -469,52 +469,47 @@
       {
         "name": "动作",
         "type": "tv",
-        "query": "动作"
+        "query": "action"
       },
+      {
+        "name": "喜剧",
+        "type": "tv",
+        "query": "comedy"
+      },        
       {
         "name": "悬疑",
         "type": "tv",
-        "query": "悬疑"
+        "query": "mystery"
       },
       {
         "name": "犯罪",
         "type": "tv",
-        "query": "犯罪"
+        "query": "crime"
       },
       {
         "name": "恐怖",
         "type": "tv",
-        "query": "恐怖"
-      },
-      {
-        "name": "惊悚",
-        "type": "tv",
-        "query": "惊悚"
+        "query": "horror"
       },
       {
         "name": "奇幻",
         "type": "tv",
-        "query": "奇幻"
+        "query": "fantasy"
       },
       {
         "name": "科幻",
         "type": "tv",
-        "query": "科幻"
-      },
-      {
-        "name": "古装",
-        "type": "tv",
-        "query": "古装"
+        "query": "sci-fi"
       },
       {
         "name": "战争",
         "type": "tv",
-        "query": "战争"
+        "query": "war"
       },
       {
         "name": "动画",
         "type": "tv",
-        "query": "动画"
+        "query": "animation"
       },
       {
         "name": "综艺",
