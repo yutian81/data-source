@@ -27,20 +27,16 @@ jobs:
           import base58
           import json
           
-          # Read the original config file
           with open('OrionTV/config.json', 'r') as f:
               config_data = json.load(f)
           
-          # Convert to JSON string and encode to bytes
           config_str = json.dumps(config_data)
           config_bytes = config_str.encode('utf-8')
           
-          # Base58 encode
           base58_encoded = base58.b58encode(config_bytes).decode('utf-8')
           
-          # Write to new file
           with open('OrionTV/config58.json', 'w') as f:
-              json.dump({'base58': base58_encoded}, f, indent=2)
+              f.write(base58_encoded)  # 直接写入纯字符串
           "
 
       - name: Commit and push changes
