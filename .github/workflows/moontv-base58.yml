@@ -1,0 +1,52 @@
+name: moontv-base58
+
+on:
+  push:
+    paths:
+      - 'OrionTV/config.json'
+  workflow_dispatch:
+
+jobs:
+  base58-encode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install base58 package
+        run: pip install base58
+
+      - name: Encode config.json to Base58
+        run: |
+          python -c "
+          import base58
+          import json
+          
+          # Read the original config file
+          with open('OrionTV/config.json', 'r') as f:
+              config_data = json.load(f)
+          
+          # Convert to JSON string and encode to bytes
+          config_str = json.dumps(config_data)
+          config_bytes = config_str.encode('utf-8')
+          
+          # Base58 encode
+          base58_encoded = base58.b58encode(config_bytes).decode('utf-8')
+          
+          # Write to new file
+          with open('OrionTV/config58.json', 'w') as f:
+              json.dump({'base58': base58_encoded}, f, indent=2)
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add OrionTV/config58.json
+          git commit -m "Auto-generated Base58 config file"
+          git push
