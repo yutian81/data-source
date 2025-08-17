@@ -347,26 +347,6 @@
     },
     "custom_category": [
       {
-        "name": "华语",
-        "type": "movie",
-        "query": "华语"
-      },
-      {
-        "name": "欧美",
-        "type": "movie",
-        "query": "欧美"
-      },
-      {
-        "name": "日本",
-        "type": "movie",
-        "query": "日本"
-      },
-      {
-        "name": "韩国",
-        "type": "movie",
-        "query": "韩国"
-      },
-      {
         "name": "动作",
         "type": "movie",
         "query": "动作"
@@ -417,26 +397,6 @@
         "query": "战争"
       },
       {
-        "name": "动画",
-        "type": "movie",
-        "query": "动画"
-      },
-      {
-        "name": "热门",
-        "type": "movie",
-        "query": "热门电影"
-      },
-      {
-        "name": "高分",
-        "type": "movie",
-        "query": "豆瓣高分"
-      },
-      {
-        "name": "热门",
-        "type": "tv",
-        "query": "热门"
-      },
-      {
         "name": "国产",
         "type": "tv",
         "query": "国产剧"
@@ -465,11 +425,6 @@
         "name": "港剧",
         "type": "tv",
         "query": "港剧"
-      },
-      {
-        "name": "动画",
-        "type": "tv",
-        "query": "动画"
       },
       {
         "name": "综艺",
