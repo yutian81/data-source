@@ -467,49 +467,9 @@
         "query": "港剧"
       },
       {
-        "name": "动作",
-        "type": "tv",
-        "query": "action"
-      },
-      {
-        "name": "喜剧",
-        "type": "tv",
-        "query": "comedy"
-      },        
-      {
-        "name": "悬疑",
-        "type": "tv",
-        "query": "mystery"
-      },
-      {
-        "name": "犯罪",
-        "type": "tv",
-        "query": "crime"
-      },
-      {
-        "name": "恐怖",
-        "type": "tv",
-        "query": "horror"
-      },
-      {
-        "name": "奇幻",
-        "type": "tv",
-        "query": "fantasy"
-      },
-      {
-        "name": "科幻",
-        "type": "tv",
-        "query": "sci-fi"
-      },
-      {
-        "name": "战争",
-        "type": "tv",
-        "query": "war"
-      },
-      {
         "name": "动画",
         "type": "tv",
-        "query": "animation"
+        "query": "动画"
       },
       {
         "name": "综艺",
