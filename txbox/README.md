@@ -70,7 +70,7 @@ https://tv.菜妮丝.top
 | ----- | ---------------------------------------------------------------------------------------------------------------- |
 | 潇洒    | https://9877.kstore.space/AnotherD/api.json                                                                      |
 | 香雅情   | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json                  |
-| 巧计    | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/qiaoji/qjtvbox.json |
+| 巧计    | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/qiaoji/qjtvbox.json |
 | 分享者 0 | https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/000.json                                   |
 | 分享者 1 | https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/001.json                                   |
 | Qist  | https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json                            |
