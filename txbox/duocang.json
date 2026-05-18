@@ -1,38 +1,34 @@
-//此为多仓接口，来源于https://github.com/aliluya1977/TVBox_warehouse
+//多仓接口，截至 20260518 有效
 
 {
     "urls": [
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json",
-          "name":"影视"
+          "url":"https://9877.kstore.space/AnotherD/api.json",
+          "name":"潇洒"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/动漫/api.json",
-          "name":"动漫"
+          "url":"https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+          "name":"香雅情"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/文艺/api.json",
-          "name":"文艺"
+          "url":"https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/qiaoji/qjtvbox.json",
+          "name":"巧计"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/体育/api.json",
-          "name":"体育"
+          "url":"https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/000.json",
+          "name":"分享者0"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/api.json",
-          "name":"教育"
+          "url":"https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+          "name":"分享者1"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/直播/api.json",
-          "name":"直播"
+          "url":"https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
+          "name":"Qist"
         },
         {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/磁力/api.json",
-          "name":"磁力"
-        },
-        {
-          "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/云盘/api.json",
-          "name":"云盘"
+          "url":"https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+          "name":"南风"
         }
      ]
    }
