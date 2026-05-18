@@ -66,15 +66,16 @@ https://tv.菜妮丝.top
 
 #### 5. 其他
 
-| 作者   | 接口                                                                                                               |
-| ---- | ---------------------------------------------------------------------------------------------------------------- |
-| 潇洒   | https://9877.kstore.space/AnotherD/api.json                                                                      |
-| 香雅情  | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json                  |
-| 巧计   | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/qiaoji/qjtvbox.json |
+| 作者    | 接口                                                                                                               |
+| ----- | ---------------------------------------------------------------------------------------------------------------- |
+| 潇洒    | https://9877.kstore.space/AnotherD/api.json                                                                      |
+| 香雅情   | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json                  |
+| 巧计    | https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/qiaoji/qjtvbox.json |
 | 分享者 0 | https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/000.json                                   |
 | 分享者 1 | https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/001.json                                   |
-| Qist | https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json                            |
-| 南风   | https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json                            |
+| Qist  | https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json                            |
+| 南风    | https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json                            |
+| 刘备    | https://raw.liucn.cc/box/m.json                                                                                  |
 
 ### 多仓聚合
 
@@ -89,3 +90,7 @@ https://gh.zrfme.com/https://raw.githubusercontent.com/yutian81/data-source/main
 ```
 https://gh.zrfme.com/https://raw.githubusercontent.com/yutian81/data-source/main/txbox/fulidc.json
 ```
+
+> 不定期更新，敬请关注！
+
+#影视 #资源 #API
