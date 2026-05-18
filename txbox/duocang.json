@@ -29,6 +29,10 @@
         {
           "url":"https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
           "name":"南风"
+        },
+        {
+          "url":"https://raw.liucn.cc/box/m.json",
+          "name":"刘备"
         }
-     ]
-   }
+    ]
+}
