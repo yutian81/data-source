@@ -26,8 +26,9 @@
 订阅：
 - https://tv.xn--yhqu5zs87a.top
 
-摸鱼儿
-主页：https://xn--ihqu10cn4c.xn--v4q818bf34b.top  
+### 摸鱼儿
+
+主页：https://我不是.摸鱼儿.top  
 接口：  
 - http://我不是.摸鱼儿.top
 - http://www.xn--ihq545aq7p.com
