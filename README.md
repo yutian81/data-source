@@ -4,4 +4,5 @@ tvbox、ADblock、host等常用的数据更新源
 ## moontv docker 版订阅源
 ```
 https://raw.githubusercontent.com/cmliu/cmliu/main/tvapi_config_json
+https://raw.githubusercontent.com/yutian81/data-source/main/OrionTV/config58.json
 ```
