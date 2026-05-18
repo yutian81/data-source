@@ -1,8 +1,12 @@
 {
     "urls": [
         {
-          "url":"https://9877.kstore.space/AnotherD/api.json",
+          "url":"https://9877.kstore.space/ONE/one.json",
           "name":"潇洒"
+        },
+        {
+          "url":"http://fmys.top/fmys.json",
+          "name":"驸马"
         },
         {
           "url":"https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
@@ -31,6 +35,10 @@
         {
           "url":"https://raw.liucn.cc/box/m.json",
           "name":"刘备"
+        },
+        {
+          "url":"https://盒子迷.top/禁止贩卖",
+          "name":"盒子迷"
         }
     ]
 }
