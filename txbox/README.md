@@ -21,6 +21,12 @@ https://www.lanzoub.com/b03j4ulyh
 
 https://www.lanzoub.com/iN9T22u0fusb
 
+### 下载合集
+
+https://share.feijipan.com/s/O4OTzF3t
+
+---
+
 ## 影视接口
 
 ### 单仓
