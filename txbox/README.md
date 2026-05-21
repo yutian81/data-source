@@ -2,19 +2,24 @@
 
 # TVBox 资源分享
 
-## 安卓客户端
+## 客户端下载
 
-| 平台   | 作者          | 下载地址                                 | 备注       |
-| ---- | ----------- | ------------------------------------ | -------- |
-| 手机端  | takagen99 版 | https://www.lanzoub.com/b03j4ulyh    | 密码：`999` |
-| 手机端  | 影视仓         | https://www.lanzoub.com/i58dA2sogfub | —        |
-| 手机端  | EasyBox     | https://www.lanzoub.com/iN9T22u0fusb | —        |
-| TV 端 | 影视仓         | https://www.lanzoub.com/i5biT2soggcj | —        |
-| TV 端 | OK 影视       | https://www.lanzoub.com/iQaMA28nujcf | —        |
-
-## OK影视
+### OK影视
 
 https://hyhy65.lanzoui.com/b0hdjcd1g
+
+### 影视仓
+
+https://wwso.lanzoub.com/b0swsgitc
+
+### takagen99 TV版
+
+https://www.lanzoub.com/b03j4ulyh  
+密码：`999`
+
+### EasyBox 手机版
+
+https://www.lanzoub.com/iN9T22u0fusb
 
 ## 影视接口
 
