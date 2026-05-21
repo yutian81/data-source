@@ -12,6 +12,10 @@
 | TV 端 | 影视仓         | https://www.lanzoub.com/i5biT2soggcj | —        |
 | TV 端 | OK 影视       | https://www.lanzoub.com/iQaMA28nujcf | —        |
 
+## OK影视
+
+https://hyhy65.lanzoui.com/b0hdjcd1g
+
 ## 影视接口
 
 ### 单仓
