@@ -11,3 +11,7 @@ https://raw.githubusercontent.com/OneCodeMonkey/music-sources/master/js/flower-v
 ```
 https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
 ```
+
+```
+https://raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js
+```
