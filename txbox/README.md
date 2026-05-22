@@ -6,20 +6,20 @@
 
 ### OK影视
 
-https://hyhy65.lanzoui.com/b0hdjcd1g
+https://leon.lanzoue.com/b0hdjcd1g
 
 ### 影视仓
 
-https://wwso.lanzoub.com/b0swsgitc
+https://leon.lanzoue.com/b0swsgitc
 
 ### takagen99 TV版
 
-https://www.lanzoub.com/b03j4ulyh  
+https://leon.lanzoue.com/b03j4ulyh  
 密码：`999`
 
 ### EasyBox 手机版
 
-https://www.lanzoub.com/iN9T22u0fusb
+https://leon.lanzoue.com/iN9T22u0fusb
 
 ### 下载合集
 
@@ -91,10 +91,12 @@ https://tv.菜妮丝.top
 | Qist  | https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json                            |
 | 南风    | https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json                            |
 | 刘备    | https://raw.liucn.cc/box/m.json                                                                                  |
+| 海豚    | https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/main/%E6%B5%B7%E8%B1%9A%E5%BD%B1%E8%A7%86%E6%97%A018%E5%8A%A0           |
+| 海豚18+  | https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/main/%E6%B5%B7%E8%B1%9A%E5%BD%B1%E8%A7%86.json           |
 
 ### 多仓聚合
 
-#### 大佬多仓
+#### 大佬多仓——其他接口聚合
 
 ```
 https://gh.zrfme.com/https://raw.githubusercontent.com/yutian81/data-source/main/txbox/duocang.json
