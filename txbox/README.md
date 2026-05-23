@@ -90,7 +90,8 @@ https://tv.菜妮丝.top
 | 分享者 1 | https://gh.zrfme.com/https://raw.githubusercontent.com/maoystv/6/main/001.json                                   |
 | Qist  | https://gh.zrfme.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json                            |
 | 南风    | https://gh.zrfme.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json                            |
-| 刘备    | https://raw.liucn.cc/box/m.json                                                                                  |
+| 刘备    | https://raw.liucn.cc/box/m.json   |
+| 道长   |  https://gitlab.com/duomv/dzhipy/-/raw/main/index.json                    |
 | 海豚    | https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/main/%E6%B5%B7%E8%B1%9A%E5%BD%B1%E8%A7%86%E6%97%A018%E5%8A%A0           |
 | 海豚18+  | https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/main/%E6%B5%B7%E8%B1%9A%E5%BD%B1%E8%A7%86.json           |
 
